@@ -1,9 +1,12 @@
 import React from 'react';
+import './customStyles.css';
+import { LandingPage } from './components/LandingPage.jsx';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 const App = () => {
 	return (
-		<>
-			<h1 className="text-4xl text-white bg-blue-700">Hello Tahsin!</h1>
-		</>
+		<Router>
+			<LandingPage />
+		</Router>
 	);
 };
 
