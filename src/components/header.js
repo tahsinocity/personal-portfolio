@@ -17,7 +17,7 @@ const Header = () => (
           <a href="#contactme">Contact me</a>
         </li>
         <li className="hover:underline">
-          <a href="#">Resume</a>
+          <a href="./Resume.html">Resume</a>
         </li>
       </ul>
     </nav>

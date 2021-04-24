@@ -5,6 +5,7 @@ import { Aboutme } from "../components/aboutme"
 import { Skills } from "../components/skills"
 import { Projects } from "../components/projects"
 import { ContactMe } from "../components/contactme"
+import ScrollToTop from "../components/scrollup"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <Skills />
     <Projects />
     <ContactMe />
+    <ScrollToTop />
   </Layout>
 )
 

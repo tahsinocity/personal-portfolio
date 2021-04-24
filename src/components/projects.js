@@ -1,5 +1,6 @@
 import * as React from "react"
 import SOJOURNER from "../images/sojourner.svg"
+import GITHUB from "../images/devicons/githubcontact.svg"
 
 export const Projects = () => {
   return (
@@ -28,6 +29,27 @@ export const Projects = () => {
                     Users are prompted to choose between either student /
                     teacher when they sign up using Google OAuth.
                   </p>
+                  <br />
+                  <p>
+                    Live Demo:{" "}
+                    <a
+                      href="https://blueberryexpress.net/"
+                      target="_blank"
+                      className="text-pink"
+                    >
+                      https://blueberryexpress.net/
+                    </a>
+                  </p>
+                  <a
+                    href="https://github.com/tahsinocity/Blueberry-Express"
+                    target="_blank"
+                  >
+                    <img
+                      src={GITHUB}
+                      className="m-2 p-1 w-9 hover:shadow-lg"
+                      alt="Github logo"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
@@ -52,6 +74,16 @@ export const Projects = () => {
                     and bidirectional communication. And lastly, I employed UUID
                     library to generate unique room ids.
                   </p>
+                  <a
+                    href="https://github.com/tahsinocity/callback"
+                    target="_blank"
+                  >
+                    <img
+                      src={GITHUB}
+                      className="m-2 p-1 w-9 hover:shadow-lg"
+                      alt="Github logo"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
@@ -71,6 +103,16 @@ export const Projects = () => {
                     nonetheless, I am proud of how much our team was able to
                     accomplish on a shortened timeline.
                   </p>
+                  <a
+                    href="https://github.com/tahsinocity/project-cat-walk"
+                    target="_blank"
+                  >
+                    <img
+                      src={GITHUB}
+                      className="m-2 p-1 w-9 hover:shadow-lg"
+                      alt="Github logo"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
@@ -89,6 +131,13 @@ export const Projects = () => {
                     legacy REST API to handle up to 300RPS based on load testing
                     benchmarks using metrics from Artillery.io.
                   </p>
+                  <a href="https://github.com/Team-Sojourner" target="_blank">
+                    <img
+                      src={GITHUB}
+                      className="m-2 p-1 w-9 hover:shadow-lg"
+                      alt="Github logo"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
