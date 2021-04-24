@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <div>
       <div className="flex relative justify-between text-darkpurple mb-28">
-        <div className="flex flex-col items-center mt-32 lg:ml-44 2xl:ml-80">
+        <div className="flex flex-col items-center mt-56 lg:ml-44 2xl:ml-80">
           <h1 className="text-5xl">Tahsin Ahmed</h1>
           <h4 className="flex flex-row text-xl">
             Software Engineer | <h4 className="text-pink text-xl">&nbsp;NY</h4>
@@ -19,7 +19,7 @@ export const Home = () => {
         </div>
         <StaticImage
           src="../images/profilepic.png"
-          width={300}
+          width={400}
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}
           alt="profile picture"
