@@ -1,6 +1,9 @@
 import * as React from "react"
 import SOJOURNER from "../images/sojourner.svg"
 import GITHUB from "../images/devicons/githubcontact.svg"
+import LionsDen from "../images/lionsden.jpg"
+import Callback from "../images/callback.jpg"
+import Blueberry from "../images/blueberryexpress.jpg"
 
 export const Projects = () => {
   return (
@@ -14,8 +17,12 @@ export const Projects = () => {
             <div className="p-6">
               <h2>Blueberry Express</h2>
               <div className="flex border rounded-lg shadow-lg vector3 hover:shadow-2xl">
-                <div className="flex-1 p-2">
-                  <img src={SOJOURNER} alt="SOJOURNER" />
+                <div className="flex-1 p-1">
+                  <img
+                    src={Blueberry}
+                    alt="Blueberry Express"
+                    className="rounded-lg shadow-lg"
+                  />
                 </div>
                 <div className="flex-1 flex flex-col items-center p-8">
                   <div className="leading-relaxed">
@@ -26,7 +33,6 @@ export const Projects = () => {
                       Users are prompted to choose between either student /
                       teacher when they sign up using Google OAuth.
                     </p>
-                    <br />
                     <p>
                       Live Demo:{" "}
                       <a
@@ -45,7 +51,7 @@ export const Projects = () => {
                     >
                       <img
                         src={GITHUB}
-                        className="m-2 p-1 w-9 hover:shadow-lg"
+                        className="m-2 p-1 w-10 hover:shadow-lg"
                         alt="Github logo"
                       />
                     </a>
@@ -56,8 +62,12 @@ export const Projects = () => {
             <div className="p-6">
               <h2>Callback</h2>
               <div className="flex border rounded-lg shadow-lg vector4 hover:shadow-2xl">
-                <div className="flex-1 p-2">
-                  <img src={SOJOURNER} alt="SOJOURNER" />
+                <div className="flex-1 p-1">
+                  <img
+                    src={Callback}
+                    alt="callback"
+                    className="rounded-lg shadow-lg"
+                  />
                 </div>
                 <div className="flex-1 flex flex-col items-center p-8">
                   <div className="leading-relaxed">
@@ -68,9 +78,7 @@ export const Projects = () => {
                       PeerJS to wrap the browser's WebRTC implementation to
                       create a P2P media stream connection to a remote peer. I
                       implemented chat room functionality using Socket.IO which
-                      enabled real-time and bidirectional communication. And
-                      lastly, I employed UUID library to generate unique room
-                      ids.
+                      enabled real-time and bidirectional communication.
                     </p>
                   </div>
                   <div>
@@ -80,7 +88,7 @@ export const Projects = () => {
                     >
                       <img
                         src={GITHUB}
-                        className="m-2 p-1 w-9 hover:shadow-lg"
+                        className="m-2 p-1 w-10 hover:shadow-lg"
                         alt="Github logo"
                       />
                     </a>
@@ -91,8 +99,12 @@ export const Projects = () => {
             <div className="p-6">
               <h2>Lion's Den</h2>
               <div className="flex border rounded-lg shadow-lg vector3 hover:shadow-2xl">
-                <div className="flex-1 p-2">
-                  <img src={SOJOURNER} alt="SOJOURNER" />
+                <div className="flex-1 p-1">
+                  <img
+                    src={LionsDen}
+                    alt="lion's den"
+                    className="rounded-lg shadow-lg"
+                  />
                 </div>
                 <div className="flex-1 flex flex-col items-center p-8">
                   <div className="leading-relaxed">
@@ -113,7 +125,7 @@ export const Projects = () => {
                     >
                       <img
                         src={GITHUB}
-                        className="m-2 p-1 w-9 hover:shadow-lg"
+                        className="m-2 p-1 w-10 hover:shadow-lg"
                         alt="Github logo"
                       />
                     </a>
@@ -124,8 +136,8 @@ export const Projects = () => {
             <div className="p-6">
               <h2>Project Sojourner</h2>
               <div className="flex border rounder-lg shadow-lg vector4 hover:shadow-2xl">
-                <div className="flex-1 p-2 flex">
-                  <img src={SOJOURNER} alt="SOJOURNER" />
+                <div className="flex-1 p-1">
+                  <img src={SOJOURNER} alt="sojourner" />
                 </div>
                 <div className="flex-1 flex flex-col items-center p-8">
                   <div className="leading-relaxed">
@@ -143,7 +155,7 @@ export const Projects = () => {
                     <a href="https://github.com/Team-Sojourner" target="_blank">
                       <img
                         src={GITHUB}
-                        className="m-2 p-1 w-9 hover:shadow-lg"
+                        className="m-2 p-1 w-10 hover:shadow-lg"
                         alt="Github logo"
                       />
                     </a>

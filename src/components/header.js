@@ -1,4 +1,5 @@
 import * as React from "react"
+import PDF from "../assets/resume.pdf"
 
 const Header = () => (
   <header>
@@ -17,7 +18,9 @@ const Header = () => (
           <a href="#contactme">Contact me</a>
         </li>
         <li className="hover:underline">
-          <a href="./Resume.html">Resume</a>
+          <a href={PDF} target="_blank" rel="noreferrer">
+            Resume
+          </a>
         </li>
       </ul>
     </nav>
