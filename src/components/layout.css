@@ -607,3 +607,39 @@ pre tt:after {
     opacity: 1;
   }
 }
+
+.home {
+  height: 100vh;
+  background: url(../images/bg.png) center no-repeat;
+  background-size: cover;
+}
+
+.vector1 {
+  height: 100vh;
+  background: url(../images/vector1.png) center no-repeat;
+  background-size: cover;
+}
+
+.vector2 {
+  height: 100vh;
+  background: url(../images/vector2.png) center;
+  background-size: cover;
+}
+
+.vector3 {
+  height: 60vh;
+  background: url(../images/vector1.png) center;
+  background-size: cover;
+}
+
+.vector4 {
+  height: 70vh;
+  background: url(../images/vector2.png) center;
+  background-size: cover;
+}
+
+.footer {
+  height: 100vh;
+  background: url(../images/footer.png) center no-repeat;
+  background-size: cover;
+}

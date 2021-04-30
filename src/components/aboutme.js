@@ -2,9 +2,9 @@ import * as React from "react"
 
 export const Aboutme = () => {
   return (
-    <div id="aboutme">
-      <div className="lg:pt-2 2xl:pt-72 flex relative justify-between text-darkpurple mb-28">
-        <div className="flex flex-col justify-start mt-32 lg:ml-44 mr-44 2xl:ml-80">
+    <div id="aboutme" className="vector1">
+      <div className="lg:pt-2 2xl:pt-2 flex relative justify-between text-darkpurple mb-28">
+        <div className="flex flex-col justify-start mt-24 lg:ml-44 mr-44 2xl:ml-80">
           <h1 className="flex text-5xl">
             About <h4 className="text-pink text-5xl">&nbsp;me</h4>
           </h1>

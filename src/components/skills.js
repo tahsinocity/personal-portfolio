@@ -20,15 +20,19 @@ import HEROKU from "../images/devicons/heroku.svg"
 
 export const Skills = () => {
   return (
-    <div id="skills">
-      <div className="lg:pt-2 2xl:pt-72 flex justify-between text-darkpurple">
+    <div id="skills" className="vector2">
+      <div className="lg:pt-2 2xl:pt-2 flex justify-between text-darkpurple">
         <div className="flex flex-col justify-start mt-12 lg:ml-44 mr-44 2xl:ml-80">
           <h1 className="flex text-5xl">
             Skill <h4 className="text-pink text-5xl">s</h4>
           </h1>
-          <div className="border rounded-lg shadow-lg p-12 mb-4">
+          <div className="flex flex-col border rounded-lg shadow-lg p-12 mb-4">
             <div className="flex justify-around pl-12 pr-12">
-              <img src={JS} className="m-2 p-1" alt="JS logo" />
+              <img
+                src={JS}
+                className="2xl:-ml-14 mr-2 mt-2 mb-2 p-1"
+                alt="JS logo"
+              />
               <img src={HTML} className="m-2 p-1" alt="HTML Logo" />
               <img src={CSS} className="m-2 p-1" alt="CSS Logo" />
               <img src={SASS} className="m-2 p-1" alt="SASS Logo" />

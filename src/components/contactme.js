@@ -7,7 +7,7 @@ export const ContactMe = () => {
   const [state, handleSubmit] = useForm("mleadkpv")
   if (state.succeeded) {
     return (
-      <div id="contactme" className="flex">
+      <div id="contactme" className="flex footer">
         <div className="lg:pt-2 2xl:pt-72 flex justify-between text-darkpurple">
           <div className="flex flex-col mt-20 lg:ml-44 mr-12 2xl:ml-80">
             <h1 className="flex text-5xl">
@@ -57,8 +57,8 @@ export const ContactMe = () => {
     )
   }
   return (
-    <div id="contactme" className="flex">
-      <div className="lg:pt-2 2xl:pt-72 flex justify-between text-darkpurple">
+    <div id="contactme" className="flex footer">
+      <div className="lg:pt-2 2xl:pt-2 flex justify-between text-darkpurple">
         <div className="flex flex-col mt-20 lg:ml-44 mr-12 2xl:ml-80">
           <h1 className="flex text-5xl">
             Contact <h1 className="text-pink text-5xl">&nbsp;Me</h1>
