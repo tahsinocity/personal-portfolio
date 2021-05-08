@@ -152,13 +152,13 @@ export default class ScrollToTop extends Component {
                     y2="63.1278"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#808080" stop-opacity="0.25" />
+                    <stop stopColor="#808080" stopOpacity="0.25" />
                     <stop
                       offset="0.54"
                       stop-color="#808080"
                       stop-opacity="0.12"
                     />
-                    <stop offset="1" stop-color="#808080" stop-opacity="0.1" />
+                    <stop offset="1" stopColor="#808080" stopOpacity="0.1" />
                   </linearGradient>
                 </defs>
               </svg>
